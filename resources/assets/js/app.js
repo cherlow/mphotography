@@ -43,3 +43,6 @@ const pic = new Vue({
 const bilog = new Vue({
     el: '#bilog'
 });
+const appi = new Vue({
+    el: '#appi'
+});
