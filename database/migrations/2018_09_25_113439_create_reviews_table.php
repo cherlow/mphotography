@@ -17,7 +17,7 @@ class CreateReviewsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->mediumText('review');
-            $table->string('status');
+            $table->string('status')->default('pending');
             $table->timestamps();
         });
     }
