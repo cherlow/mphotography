@@ -75,7 +75,7 @@ public function contact(){
 public function blogdetails($id){
   $title='Blog -> Blog Details';
    $populars=Post::where('status','posted')->take(10)->get();
-   $comments=Comment::where('commentable_type','blog')->where('commentable_id',$id)->get();
+  
   $post=Post::find($id);
   return view('pages.blogdetails')->with('id',$id)->with('title',$title)->with('post',$post)->with('populars',$populars);
 }
