@@ -10,6 +10,7 @@
         <title>Musyoka Photography</title>
 
         <!-- Fonts -->
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link href="{{ asset('css/animate.css') }}" rel="stylesheet" type="text/css">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
