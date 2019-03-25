@@ -77,7 +77,7 @@ public function blogdetails($id){
    $populars=Post::where('status','posted')->take(10)->get();
    $comments=Comment::where('commentable_type','blog')->where('commentable_id',$id)->get();
   $post=Post::find($id);
-  return view('pages.blogdetails')->with('id',$id)->with('title',$title)->with('post',$post)->with('comments',$comments)->with('populars',$populars);
+  return view('pages.blogdetails')->with('id',$id)->with('title',$title)->with('post',$post)->with('populars',$populars);
 }
 
 // return blog details
