@@ -97,7 +97,7 @@
     </div>
 
    
-            <div id="app">
+            <div id="appi">
             <blog></blog>
             </div>
      
