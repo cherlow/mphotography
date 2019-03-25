@@ -98,7 +98,7 @@
 
    
             <div id="appi">
-            <blog></blog>
+            <bloglist></bloglist>
             </div>
      
      <!--================Service Area =================-->
