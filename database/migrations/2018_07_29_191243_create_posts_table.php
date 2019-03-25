@@ -17,7 +17,7 @@ class CreatePostsTable extends Migration
             $table->increments('id');
             $table->mediumText('name');
             $table->longText('body');
-            $table->string('status');
+            $table->string('status')->default('posted');
             $table->string('cover_pic');
             $table->timestamps();
         });
