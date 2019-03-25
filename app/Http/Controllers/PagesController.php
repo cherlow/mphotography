@@ -139,7 +139,6 @@ $message=new Message;
     $message->email=$request->input('email');
     $message->subject=$request->input('subject');
     $message->message=$request->input('message');
-    return $message;
     $message->save();
 
     $notification=new Notification;
