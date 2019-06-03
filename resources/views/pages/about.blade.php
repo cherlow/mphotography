@@ -27,7 +27,7 @@
             </div>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-                    <h2>Our Team</h2>
+                    <h2>Our Customers</h2>
                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
                 </div>
             </div>
